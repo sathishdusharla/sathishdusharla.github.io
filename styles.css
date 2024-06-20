@@ -14,7 +14,7 @@ body {
     text-align: center;
     background: #fff;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add box-shadow for depth */
     border-radius: 10px;
     width: 90%;
     max-width: 800px; /* Optional: Set a max-width for larger screens */
@@ -75,7 +75,7 @@ main {
     max-width: 400px; /* Limit width if needed */
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #ddd; /* Optional: Add border for input */
     border-radius: 5px;
     box-sizing: border-box;
 }
