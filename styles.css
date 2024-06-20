@@ -42,10 +42,13 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .instructions-container {
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .instruction {
@@ -100,6 +103,8 @@ main {
     border-radius: 5px;
     width: 100%;
     box-sizing: border-box;
+    overflow: auto;  /* Ensure content stays within the box */
+    max-height: 300px;  /* Limit height to prevent excessive overflow */
 }
 
 footer {
