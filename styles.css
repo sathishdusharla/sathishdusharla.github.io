@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 600px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+    color: #007bff;
+}
+
+header h2 {
+    font-size: 1.2em;
+    color: #555;
+}
+
+header h3, header h4 {
+    color: #333;
+    font-weight: normal;
+}
+
+main {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.instructions-container {
+    margin-bottom: 20px;
+}
+
+.instruction {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.program-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.program-list li {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #333;
+}
+
+#searchBar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+#searchButton:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: left;
+    background: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
